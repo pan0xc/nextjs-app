@@ -17,9 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="zh-CN"
       suppressHydrationWarning
-      className={cn("font-sans", InterSans.variable, "font-sans")}
+      className={cn("font-sans", InterSans.variable)}
     >
       <body className="antialiased min-h-dvh flex flex-col">
         <ThemeProvider
